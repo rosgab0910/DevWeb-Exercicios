@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://www.google.com/"><strong>Google</strong></a>
+    <a href="https://www.facebook.com/"><strong>Facebook<strong></a>
+    <a href="https://www.youtube.com/"><strong>Youtube</strong></a>
+    <a href="https://www.instagram.com/"><strong>Instagram</strong></a>
+    <a href="https://x.com/?lang=pt"><strong>Twitter</strong></a>
+    <a href="https://www.amazon.com.br/"><strong>Amazon</strong></a>
+    <a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal"><strong>Wikipedia</strong></a>
+    <a href="https://www.reddit.com/?rdt=52974"><strong>Reddit</strong></a>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes Sociais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="social-media">
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="facebook.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="instagram.png" alt="Instagram">
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+            <img src="twitter.png" alt="Twitter">
+        </a>
+        <a href="https://www.youtube.com" target="_blank">
+            <img src="youtube.png" alt="YouTube">
+        </a>
+    </div>
+</body>
+</html>
+
+
+CSS 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.social-media {
+    display: flex;
+    gap: 20px; /* Espaçamento entre as imagens */
+}
+
+.social-media img {
+    width: 50px; /* Largura padrão */
+    height: 50px; /* Altura padrão */
+    transition: transform 0.2s; /* Efeito de transição */
+}
+
+.social-media img:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Início - Viagens pelo Mundo</title>
+</head>
+<body>
+    <header>
+        <h1>Viagens pelo Mundo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Bem-vindo ao nosso site!</h2>
+        <p>Explore os melhores destinos de viagem e descubra novas culturas.</p>
+        <img src="imagens/praia.jpg" alt="Praia" />
+    </main>
+    <footer>
+        <p>&copy; 2023 Viagens pelo Mundo</p>
+    </footer>
+</body>
+</html>
