@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Seletor Descendente</title>
+    <style>
+        /* Seletor descendente para alterar a cor da fonte em todo conteúdo filho de <div> */
+        .container * {
+            color: blue; /* Cor da fonte para azul */
+        }
+
+        /* Seletor descendente para estilizar os itens da lista <li> dentro da segunda <section> */
+        .section2 ul li {
+            background-color: green; /* Cor de fundo verde para os itens da lista */
+            padding: 5px; /* Adicionando um pouco de espaço interno */
+            margin: 5px 0; /* Adicionando margem entre os itens */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <section class="section1">
+        <p>Este é o primeiro parágrafo da seção 1.</p>
+        <p>Este é o segundo parágrafo da seção 1.</p>
+        <p>Este é o terceiro parágrafo da seção 1.</p>
+    </section>
+    
+    <section class="section2">
+        <ul>
+            <li>Item 1 da lista</li>
+            <li>Item 2 da lista</li>
+            <li>Item 3 da lista</li>
+        </ul>
+    </section>
+</div>
+
+</body>
+</html>

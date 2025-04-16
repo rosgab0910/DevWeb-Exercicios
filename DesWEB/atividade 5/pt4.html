@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Seletor de Filho Direto</title>
+    <style>
+        /* Seletor de filho direto para a <div> com a classe "menu" */
+        .menu > * {
+            color: red; /* Cor da fonte vermelha para os filhos diretos da <div> */
+        }
+
+        /* Seletor de filho direto para a lista <ul> dentro da <div> "menu" */
+        .menu > ul > li {
+            color: blue; /* Cor da fonte azul para os itens da lista */
+        }
+    </style>
+</head>
+<body>
+
+<div class="menu">
+    <ul>
+        <li>Item 1 do menu</li>
+        <li>Item 2 do menu</li>
+        <li>Item 3 do menu</li>
+    </ul>
+    <p>Este é um parágrafo que descreve o menu.</p>
+</div>
+
+</body>
+</html>
